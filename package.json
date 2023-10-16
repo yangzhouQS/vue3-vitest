@@ -1,0 +1,29 @@
+{
+  "name": "vue3-vitest",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/lodash": "^4.14.196",
+    "@types/node": "^20.4.7",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "@vue/test-utils": "^2.4.1",
+    "jsdom": "^22.1.0",
+    "vitest": "^0.34.6",
+    "vite": "^4.4.5",
+    "typescript": "^5.0.2",
+    "vue-tsc": "^1.8.5"
+  }
+}
