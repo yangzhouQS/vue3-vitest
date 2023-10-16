@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import {ElButton} from "./components/button.tsx";
+import {QBtn} from "./components/button";
 </script>
 
 <template>
   <div>
-    <ElButton>
-      hello
-    </ElButton>
+      <QBtn type="primary" a="1" @sum="()=>{}" class="item">
+        按钮测试
+      </QBtn>
   </div>
 </template>
 
